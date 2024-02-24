@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 40px 1fr 40px;
+    grid-template-areas: 
+    "zh" "zn" "zs" "zf";
+}
+header{
+    grid-area: zh;
+    background-color: rgb(187, 187, 187);
+}
+nav{
+    grid-area: zn;
+    background-color: rgb(168, 168, 168);
+}
+section{
+    grid-area: zs;
+    background-color: rgb(117, 115, 115);
+}
+footer{
+    grid-area: zf;
+    background-color: rgb(68, 68, 68);
+}
