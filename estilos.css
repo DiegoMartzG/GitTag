@@ -31,10 +31,16 @@ section{
 #informacion{
     background-color: rgb(253, 179, 179);
     text-align: center;
+    margin: 20px;
+    align-items: center;
+    box-shadow: 2px 2px rgb(253, 244, 244);
 }
 #creador{
     background-color: rgb(253, 179, 179);
     text-align: center;
+    align-items: center;
+    box-shadow: 2px 2px rgb(253, 244, 244);
+
 }
 footer{
     grid-area: zf;
