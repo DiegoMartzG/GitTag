@@ -9,16 +9,37 @@ body{
 header{
     grid-area: zh;
     background-color: rgb(187, 187, 187);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 nav{
     grid-area: zn;
     background-color: rgb(168, 168, 168);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 section{
     grid-area: zs;
     background-color: rgb(117, 115, 115);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#informacion{
+    background-color: rgb(253, 179, 179);
+    text-align: center;
+}
+#creador{
+    background-color: rgb(253, 179, 179);
+    text-align: center;
 }
 footer{
     grid-area: zf;
     background-color: rgb(68, 68, 68);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
